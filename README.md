@@ -116,17 +116,7 @@ Open **http://localhost:8501** to explore:
 
 ---
 
-## 🚀 Deploy to Streamlit Cloud
-
-1. Push the repo to **GitHub** (artifacts CSVs included, heavy model files excluded via `.gitignore`)
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
-3. Click **"New app"** and select:
-   - **Repository**: your GitHub repo
-   - **Branch**: `main`
-   - **Main file path**: `dashboard/app.py`
-4. Click **Deploy** — Streamlit Cloud will install from `requirements.txt` automatically
-
-> The dashboard works fully without PyTorch/GNN — it reads pre-computed CSV artifacts and can also process uploaded datasets in-browser.
+## 🚀 Deployed to Streamlit Cloud -- https://fraud-detection-graphs.streamlit.app/
 
 ---
 
