@@ -898,9 +898,7 @@ if page == "📊 Fraud Overview":
             "Risk Level",
         ]
         st.dataframe(
-            top20[
-                [c for c in display_cols if c in top20.columns]
-            ].style.background_gradient(subset=["risk_score"], cmap="RdYlGn_r"),
+            top20[[c for c in display_cols if c in top20.columns]],
             use_container_width=True,
         )
 
@@ -1113,9 +1111,7 @@ elif page == "🔴 Fraud Rings":
     suspicious = comm_stats[comm_stats["fraud_accounts"] > 0].copy()
     suspicious["avg_risk_score"] = suspicious["avg_risk_score"].round(1)
     st.dataframe(
-        suspicious.style.background_gradient(
-            subset=["avg_risk_score", "fraud_rate"], cmap="RdYlGn_r"
-        ),
+        suspicious,
         use_container_width=True,
     )
 
