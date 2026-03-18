@@ -1,0 +1,11 @@
+# ── Dashboard dependencies (Streamlit Cloud) ──
+streamlit
+pandas
+numpy
+networkx
+python-louvain
+pyvis
+plotly
+scikit-learn
+shap
+scipy

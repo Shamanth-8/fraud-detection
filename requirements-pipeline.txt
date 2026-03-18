@@ -1,0 +1,19 @@
+# ── Full Pipeline dependencies ──
+# Use this file when running the ML pipeline locally:
+#   pip install -r requirements-pipeline.txt
+streamlit
+tensorflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+torch
+torch-geometric
+networkx
+python-louvain
+pyvis
+plotly
+faker
+shap
+scipy

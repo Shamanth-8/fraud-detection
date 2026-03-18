@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (too large for GitHub, not needed for dashboard)
+artifacts/gnn_fraud_model.pt
+artifacts/transaction_graph.gpickle
+
+# Keras model (not needed for dashboard)
+fraud_autoencoder.keras
+fraud_metadata.pkl
+
+# Large raw dataset
+simple_fraud_data.csv
